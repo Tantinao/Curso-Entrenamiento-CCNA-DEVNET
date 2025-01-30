@@ -1,0 +1,10 @@
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+edad = input("Ingrese su edad: ")
+sede = input("Ingrese su sede: ")
+
+print("\nDatos personales:")
+print("Nombre:", nombre)
+print("Apellido:", apellido)
+print("Edad:", edad)
+print("Sede:", sede)
