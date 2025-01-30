@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form method="POST" action="/registro">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="otro_registro">Otro Registro:</label>
+        <input type="text" id="otro_registro" name="otro_registro" required><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Registrarse">
+    </form>
+    <a href="/login">Iniciar sesión</a>
+</body>
+</html>
+
